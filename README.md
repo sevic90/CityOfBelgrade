@@ -1,5 +1,5 @@
 Title:
-Project is ture guid what to see in Belgrade capital of serbia.
+Project is ture guide what to see in Belgrade capital of serbia.
 
 Overview:
 This site is created for the Chingu Voyage 47 pre-work.
