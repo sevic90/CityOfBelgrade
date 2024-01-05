@@ -2,7 +2,7 @@
 
 function changeImage() {
 	var img1=document.getElementById('img1');
-	if (img1.src.match('Kalemegdan.jpg')) {
+	if (img1.src === "Kalemegdan.jpg") {
 		img1.src='kale2.jpg';
 	}else{
 		img1.src='Kalemegdan.jpg';
