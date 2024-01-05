@@ -1,11 +1,11 @@
 
 
 function changeImage() {
-	var img1=document.getElementById('img1');
-	if (img1.src.match ('Kalemegdan.jpg')) {
-		img1.src="kale2.jpg";
+	var im=document.getElementById('img1');
+	if (im.src.match ('Kalemegdan.jpg')) {
+		im.src="kale2.jpg";
 	}else{
-		img1.src="Kalemegdan.jpg";
+		im.src="Kalemegdan.jpg";
 	}
 	
 
@@ -15,22 +15,22 @@ function changeImage() {
 }
 
 function changeImage1() {
-	var img2=document.getElementById('img2');
-		if (img2.src.match('Mihajlova.jpg')) {
-		img2.src="knez2.jpg";
+	var ig=document.getElementById('img2');
+		if (ig.src.match('Mihajlova.jpg')) {
+		ig.src="knez2.jpg";
 	}else{
-		img2.src="Mihajlova.jpg";
+		ig.src="Mihajlova.jpg";
 	}
 
 	
 	
 }
 function changeImage2() {
-	var img3=document.getElementById('img3');
-		if (img3.src.match('Skadarlija.jpg')) {
-		img3.src="skal2.jpg";
+	var ir=document.getElementById('img3');
+		if (ir.src.match('Skadarlija.jpg')) {
+		ir.src="skal2.jpg";
 	}else{
-		img3.src="Skadarlija.jpg";
+		ir.src="Skadarlija.jpg";
 	}
 
 	
@@ -39,11 +39,11 @@ function changeImage2() {
 	
 }
 function changeImage3() {
-	var img4=document.getElementById('img4');
-		if (img4.src.match('Avala.jpg')) {
-		img4.src="avl2.jpg";
+	var iv=document.getElementById('img4');
+		if (iv.src.match('Avala.jpg')) {
+		iv.src="avl2.jpg";
 	}else{
-		img4.src="Avala.jpg";
+		iv.src="Avala.jpg";
 	}
 	
 
@@ -51,11 +51,11 @@ function changeImage3() {
 	
 }
 function changeImage4() {
-	var img5=document.getElementById('img5');
-			if (img5.src.match('Ada1.jpg')) {
-		img5.src="ada2.jpg";
+	var il=document.getElementById('img5');
+			if (il.src.match('Ada1.jpg')) {
+		il.src="ada2.jpg";
 	}else{
-		img5.src="Ada1.jpg";
+		il.src="Ada1.jpg";
 	}
 	
 }
