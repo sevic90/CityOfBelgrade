@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>City of Belgrade</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+	
+	
+<body>
+	<header>
+		<section>
+		<nav>
+			<input type="checkbox" id="check">
+			<label for="check" class="checkbtn">|||
+				<i class="fas fa-bars"></i>
+			</label>
+			<label class="name">City of Belgrade</label>
+
+			<ul>
+				<li><a href="#Kalemegdan">Kalemegdan</a></li>
+				<li><a href="#Knez-Mihajlova">Knez Mihailova</a></li>
+				<li><a href="#Skadarlija">Skadarlija</a></li>
+				<li><a href="#Ada">Ada Ciganlija</a></li>
+				<li><a href="#Avala"> Avala</a></li>
+			</ul>
+		</nav>
+		</section>
+		</header>
+		<h1 id="city">What to see in Belgrade?</h1>
+
+		<div class="card-container">
+
+
+			<div class="card">
+				<img  id="img1" src="Kalemegdan.jpg" onclick="changeImage()"/>
+				<script type="text/javascript">
+					
+					function changeImage() {
+	                    var img1=document.getElementById('img1');
+	                    if (img1.src.match('Kalemegdan.jpg')) {
+	                     	img1.src="kale2.jpg";
+	                   }else{
+		                    img1.src="Kalemegdan.jpg";
+	                   }
+                    }
+				</script>
+				<div class="card-content">
+					<h3 id="Kalemegdan">Kalemegdan</h3>
+					<p>The Kalemegdan Park (Serbian: Калемегдански парк / Kalemegdanski park), or simply Kalemegdan (Serbian Cyrillic: Калемегдан) is the largest park and the most important historical monument in Belgrade.</p>
+					<a href="https://en.wikipedia.org/wiki/Kalemegdan_Park" class="btn">Read more</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<img id="img2" src="Mihajlova.jpg" onclick="changeImage1()"/>
+				<script type="text/javascript">
+					function changeImage1() {
+	                   var img2=document.getElementById('img2');
+		               if (img2.src.match('Mihajlova.jpg')) {
+		                   img2.src="knez2.jpg";
+	                   }else{
+		                   img2.src="Mihajlova.jpg";
+	                     }
+	
+                       }
+				</script>
+				<div class="card-content">
+					<h3 id="Knez-Mihajlova">Knez Mihailova</h3>
+					<p>Knez Mihailova Street (Serbian: Кнез Михаилова улица, romanized: Knez Mihailova ulica, officially: Улица кнеза Михаила, Ulica kneza Mihaila) is the main pedestrian and shopping zone in Belgrade, and is protected by law as one of the oldest and most valuable landmarks of the city.</p>
+					<a href="https://en.wikipedia.org/wiki/Knez_Mihailova_Street" class="btn">Read more</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<img id="img3" src="Skadarlija.jpg" onclick="changeImage2()"/>
+				<script type="text/javascript">
+					function changeImage2() {
+	                   var img3=document.getElementById('img3');
+		               if (img3.src.match('Skadarlija.jpg')) {
+		                   img3.src="skal2.jpg";
+	                   }else{
+	                    	img3.src="Skadarlija.jpg";
+	                    }
+                     }
+				</script>
+				<div class="card-content">
+					<h3 id="Skadarlija">Skadarlija</h3>
+					<p>Skadarlija (Serbian Cyrillic: Скадарлија) is a vintage street, an urban neighborhood and former municipality of Belgrade, Serbia, located in the Belgrade municipality of Stari Grad (Old Town).</p>
+					<a href="https://en.wikipedia.org/wiki/Skadarlija" class="btn">Read more</a>
+				</div>
+			</div>
+
+
+			<div class="card">
+				<img id="img4" src="Avala.jpg" onclick="changeImage3()"/>
+				<script type="text/javascript">
+					function changeImage3() {
+	                 var img4=document.getElementById('img4');
+		              if (img4.src.match('Avala.jpg')) {
+		                  img4.src="avl2.jpg";
+	                 }else{
+		                  img4.src="Avala.jpg";
+                   	}	
+                   }
+				</script>
+				<div class="card-content">
+					<h3 id="Avala">Avala Mountain</h3>
+					<p>Avala is a mountain in Serbia, overlooking Belgrade. It is situated in the south-eastern corner of the city and provides a great panoramic view of Belgrade. </p>
+					<a href="https://en.wikipedia.org/wiki/Avala" class="btn">Read more</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<img id="img5" src="Ada1.jpg" onclick="changeImage4()"/>
+				<script type="text/javascript">
+					function changeImage4() {
+	                  var img5=document.getElementById('img5');
+		            	if (img5.src.match('Ada1.jpg')) {
+		                    img5.src="ada2.jpg";
+	                   }else{
+		                    img5.src="Ada1.jpg";
+	                     }
+	
+                       }
+				</script>
+				<div class="card-content">
+					<h3 id="Ada">Ada Ciganlija</h3>
+					<p>Ada Ciganlija  colloquially shortened to Ada, is a river island that has artificially been turned into a peninsula, located in the Sava River's course through central Belgrade, Serbia.</p>
+					<a href="https://en.wikipedia.org/wiki/Ada_Ciganlija" class="btn">Read more</a>
+				</div>
+			</div>
+
+		</div>
+
+		<footer>
+			<p>All copy rights reserved @belgrade</p>
+		</footer>
+		
+
+
+</body>
+</html>
